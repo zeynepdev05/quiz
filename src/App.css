@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+тз* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: greenyellow;
 }
+/* .container {
+  width: 90%;
+  margin: 0 auto;
+} */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main_game {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 70vh;
 }
 
-.App-link {
-  color: #61dafb;
+.game {
+  padding: 30px;
+  width: 480px;
+  height: 350px;
+  background-color: aliceblue;
+  border-radius: 14px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.game h1 {
+  margin-bottom: 34px;
+}
+ul {
+  list-style: none;
+}
+
+.game li {
+  padding: 12px 30px;
+  border-radius: 14px;
+  border: 1px solid yellowgreen;
+  margin-bottom: 13px;
+  cursor: pointer;
+}
+#result {
+  padding: 30px;
+}
+
+.result {
+  background-color: aliceblue;
+  border-radius: 24px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 520px;
+  height: 390px;
+  margin: 100px 450px;
+}
+
+.result img {
+  width: 100px;
+}
+
+.result h3 {
+  margin: 20px 0 40px 0;
+}
+
+.result button {
+  padding: 10px 40px;
+  background-color: rgba(0, 128, 0, 0.531);
+  cursor: pointer;
+  border-radius: 16px;
+  border: none;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
